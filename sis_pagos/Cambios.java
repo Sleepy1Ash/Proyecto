@@ -168,7 +168,6 @@ public class Cambios extends javax.swing.JFrame {
         lbventa = new javax.swing.JLabel();
         txtventa = new javax.swing.JTextField();
         lbfecha = new javax.swing.JLabel();
-        calendario = new com.toedter.calendar.JDateChooser();
         lbobjetos = new javax.swing.JLabel();
         txtobjetos = new javax.swing.JTextField();
         lbmonto = new javax.swing.JLabel();
@@ -384,7 +383,7 @@ public class Cambios extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         jPanel1.setLayout(null);
 
@@ -394,11 +393,9 @@ public class Cambios extends javax.swing.JFrame {
         jLabel1.setBounds(20, 40, 150, 20);
 
         btncambios.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btncambios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/recibo (Copiar).png"))); // NOI18N
         btncambios.setText("Cambios");
         btncambios.setContentAreaFilled(false);
         btncambios.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btncambios.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/recibo (Copiar)_1.png"))); // NOI18N
         btncambios.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btncambios.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btncambios.addActionListener(new java.awt.event.ActionListener() {
@@ -410,11 +407,9 @@ public class Cambios extends javax.swing.JFrame {
         btncambios.setBounds(120, 240, 90, 100);
 
         btneliminar.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btneliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/basura (Copiar).png"))); // NOI18N
         btneliminar.setText("Eliminar");
         btneliminar.setContentAreaFilled(false);
         btneliminar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btneliminar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/basura (Copiar)_1.png"))); // NOI18N
         btneliminar.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btneliminar.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btneliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -426,11 +421,9 @@ public class Cambios extends javax.swing.JFrame {
         btneliminar.setBounds(10, 240, 100, 100);
 
         btnregistros.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnregistros.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (Copiar).png"))); // NOI18N
         btnregistros.setText("Registro");
         btnregistros.setContentAreaFilled(false);
         btnregistros.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnregistros.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (Copiar)_1.png"))); // NOI18N
         btnregistros.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnregistros.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnregistros.addAncestorListener(new javax.swing.event.AncestorListener() {
@@ -451,11 +444,9 @@ public class Cambios extends javax.swing.JFrame {
         btnregistros.setBounds(0, 100, 100, 110);
 
         btnpagos.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnpagos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/metodo-de-pago (Copiar).png"))); // NOI18N
         btnpagos.setText("Pagos");
         btnpagos.setContentAreaFilled(false);
         btnpagos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnpagos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/metodo-de-pago (Copiar)_1.png"))); // NOI18N
         btnpagos.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnpagos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnpagos.addActionListener(new java.awt.event.ActionListener() {
@@ -467,12 +458,10 @@ public class Cambios extends javax.swing.JFrame {
         btnpagos.setBounds(130, 100, 80, 100);
 
         btnsalir.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnsalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/flecha_regresar.png"))); // NOI18N
         btnsalir.setText("Salir");
         btnsalir.setToolTipText("");
         btnsalir.setContentAreaFilled(false);
         btnsalir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnsalir.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/flecha_regresar (Copiar).png"))); // NOI18N
         btnsalir.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnsalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -483,11 +472,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir.setBounds(20, 360, 70, 110);
 
         btnbusqueda.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnbusqueda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/candidato (Copiar).png"))); // NOI18N
         btnbusqueda.setText("Consultas");
         btnbusqueda.setContentAreaFilled(false);
         btnbusqueda.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnbusqueda.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/candidato (Copiar) (Copiar).png"))); // NOI18N
         btnbusqueda.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnbusqueda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -504,11 +491,9 @@ public class Cambios extends javax.swing.JFrame {
         registros.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         registros.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        bienvenido.setBackground(new java.awt.Color(255, 255, 255));
+        bienvenido.setBackground(new java.awt.Color(204, 255, 204));
         bienvenido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         bienvenido.setLayout(null);
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/logotipo (Copiar).png"))); // NOI18N
         bienvenido.add(jLabel4);
         jLabel4.setBounds(150, 110, 350, 250);
 
@@ -524,11 +509,9 @@ public class Cambios extends javax.swing.JFrame {
         menuregistros.setLayout(null);
 
         btncliente3.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btncliente3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar).png"))); // NOI18N
         btncliente3.setText("Cliente");
         btncliente3.setContentAreaFilled(false);
         btncliente3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btncliente3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"))); // NOI18N
         btncliente3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btncliente3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btncliente3.addActionListener(new java.awt.event.ActionListener() {
@@ -540,17 +523,15 @@ public class Cambios extends javax.swing.JFrame {
         btncliente3.setBounds(210, 200, 80, 100);
 
         titulo1.setFont(new java.awt.Font("Trebuchet MS", 3, 24)); // NOI18N
-        titulo1.setText("Â¿Que quieres registrar?");
+        titulo1.setText("¿Que quieres registrar?");
         menuregistros.add(titulo1);
         titulo1.setBounds(220, 10, 280, 40);
 
         btnventa3.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnventa3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar).png"))); // NOI18N
         btnventa3.setText("Venta");
         btnventa3.setContentAreaFilled(false);
         btnventa3.setDefaultCapable(false);
         btnventa3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnventa3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"))); // NOI18N
         btnventa3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnventa3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnventa3.addActionListener(new java.awt.event.ActionListener() {
@@ -561,16 +542,14 @@ public class Cambios extends javax.swing.JFrame {
         menuregistros.add(btnventa3);
         btnventa3.setBounds(400, 200, 90, 100);
 
-        btnsalir17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir17.setContentAreaFilled(false);
-        btnsalir17.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir17ActionPerformed(evt);
             }
         });
         menuregistros.add(btnsalir17);
-        btnsalir17.setBounds(0, 10, 93, 69);
+        btnsalir17.setBounds(0, 10, 33, 9);
 
         registros.add(menuregistros, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 510));
 
@@ -579,11 +558,9 @@ public class Cambios extends javax.swing.JFrame {
         registroventas.setLayout(null);
 
         guardarventa.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        guardarventa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar).png"))); // NOI18N
         guardarventa.setText("Guardar_v");
         guardarventa.setContentAreaFilled(false);
         guardarventa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        guardarventa.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar) (Copiar).png"))); // NOI18N
         guardarventa.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         guardarventa.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         guardarventa.addActionListener(new java.awt.event.ActionListener() {
@@ -612,10 +589,6 @@ public class Cambios extends javax.swing.JFrame {
         registroventas.add(lbfecha);
         lbfecha.setBounds(120, 200, 50, 20);
 
-        calendario.setDateFormatString("yyyy/MM/dd");
-        registroventas.add(calendario);
-        calendario.setBounds(310, 200, 140, 20);
-
         lbobjetos.setFont(new java.awt.Font("Tw Cen MT", 0, 18)); // NOI18N
         lbobjetos.setText("Cantidad objetos:");
         registroventas.add(lbobjetos);
@@ -642,16 +615,14 @@ public class Cambios extends javax.swing.JFrame {
         registroventas.add(txtmonto);
         txtmonto.setBounds(310, 290, 140, 30);
 
-        btnsalir16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir16.setContentAreaFilled(false);
-        btnsalir16.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir16ActionPerformed(evt);
             }
         });
         registroventas.add(btnsalir16);
-        btnsalir16.setBounds(0, 10, 93, 69);
+        btnsalir16.setBounds(0, 10, 33, 9);
 
         titulo2.setFont(new java.awt.Font("Trebuchet MS", 3, 24)); // NOI18N
         titulo2.setText("Registro de Ventas");
@@ -659,11 +630,9 @@ public class Cambios extends javax.swing.JFrame {
         titulo2.setBounds(250, 10, 220, 40);
 
         nuevo1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        nuevo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar).png"))); // NOI18N
         nuevo1.setText("nuevo ");
         nuevo1.setContentAreaFilled(false);
         nuevo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        nuevo1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar) (Copiar).png"))); // NOI18N
         nuevo1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         nuevo1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         nuevo1.addActionListener(new java.awt.event.ActionListener() {
@@ -672,14 +641,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         registroventas.add(nuevo1);
-        nuevo1.setBounds(590, 100, 93, 100);
+        nuevo1.setBounds(590, 100, 77, 100);
 
         cancelar1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar1.setText("cancelar");
         cancelar1.setContentAreaFilled(false);
         cancelar1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar1.addActionListener(new java.awt.event.ActionListener() {
@@ -688,7 +655,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         registroventas.add(cancelar1);
-        cancelar1.setBounds(590, 220, 93, 100);
+        cancelar1.setBounds(590, 220, 89, 100);
 
         txtfolio1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
@@ -739,9 +706,7 @@ public class Cambios extends javax.swing.JFrame {
         pagos.add(jLabel10);
         jLabel10.setBounds(50, 310, 120, 20);
 
-        btnsalir3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir3.setContentAreaFilled(false);
-        btnsalir3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir3ActionPerformed(evt);
@@ -789,9 +754,7 @@ public class Cambios extends javax.swing.JFrame {
         pagos.add(txtporpagar);
         txtporpagar.setBounds(230, 270, 120, 30);
 
-        btnguardar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar).png"))); // NOI18N
         btnguardar2.setContentAreaFilled(false);
-        btnguardar2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar) (Copiar).png"))); // NOI18N
         btnguardar2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnguardar2ActionPerformed(evt);
@@ -819,11 +782,9 @@ public class Cambios extends javax.swing.JFrame {
         txttotalpagar.setBounds(230, 190, 120, 30);
 
         nuevo2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        nuevo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar).png"))); // NOI18N
         nuevo2.setText("nuevo ");
         nuevo2.setContentAreaFilled(false);
         nuevo2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        nuevo2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar) (Copiar).png"))); // NOI18N
         nuevo2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         nuevo2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         nuevo2.addActionListener(new java.awt.event.ActionListener() {
@@ -832,14 +793,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         pagos.add(nuevo2);
-        nuevo2.setBounds(590, 140, 93, 100);
+        nuevo2.setBounds(590, 140, 77, 100);
 
         cancelar2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar2.setText("cancelar");
         cancelar2.setContentAreaFilled(false);
         cancelar2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar2.addActionListener(new java.awt.event.ActionListener() {
@@ -848,7 +807,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         pagos.add(cancelar2);
-        cancelar2.setBounds(600, 260, 93, 100);
+        cancelar2.setBounds(600, 260, 89, 100);
 
         jLabel9.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
         jLabel9.setText("Pago:");
@@ -869,11 +828,9 @@ public class Cambios extends javax.swing.JFrame {
         no_venta1.setBounds(230, 110, 120, 30);
 
         buscarpagos1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarpagos1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarpagos1.setText("Buscar");
         buscarpagos1.setContentAreaFilled(false);
         buscarpagos1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarpagos1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarpagos1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarpagos1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarpagos1.addActionListener(new java.awt.event.ActionListener() {
@@ -882,7 +839,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         pagos.add(buscarpagos1);
-        buscarpagos1.setBounds(590, 20, 93, 100);
+        buscarpagos1.setBounds(590, 20, 75, 100);
 
         fecha_pag.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -996,9 +953,7 @@ public class Cambios extends javax.swing.JFrame {
         eliminarpago.add(txtelfechali);
         txtelfechali.setBounds(280, 310, 120, 30);
 
-        btnsalir8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir8.setContentAreaFilled(false);
-        btnsalir8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir8ActionPerformed(evt);
@@ -1008,11 +963,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir8.setBounds(0, 0, 70, 80);
 
         buscarpagos.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarpagos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarpagos.setText("Buscar");
         buscarpagos.setContentAreaFilled(false);
         buscarpagos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarpagos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarpagos.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarpagos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarpagos.addActionListener(new java.awt.event.ActionListener() {
@@ -1021,14 +974,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarpago.add(buscarpagos);
-        buscarpagos.setBounds(520, 80, 93, 100);
+        buscarpagos.setBounds(520, 80, 75, 100);
 
         eliminarpagos.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        eliminarpagos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar).png"))); // NOI18N
         eliminarpagos.setText("Borrar");
         eliminarpagos.setContentAreaFilled(false);
         eliminarpagos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        eliminarpagos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar) (Copiar).png"))); // NOI18N
         eliminarpagos.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         eliminarpagos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         eliminarpagos.addActionListener(new java.awt.event.ActionListener() {
@@ -1040,11 +991,9 @@ public class Cambios extends javax.swing.JFrame {
         eliminarpagos.setBounds(520, 200, 100, 100);
 
         cancelar5.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar5.setText("cancelar");
         cancelar5.setContentAreaFilled(false);
         cancelar5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar5.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar5.addActionListener(new java.awt.event.ActionListener() {
@@ -1053,7 +1002,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarpago.add(cancelar5);
-        cancelar5.setBounds(530, 310, 93, 110);
+        cancelar5.setBounds(530, 310, 89, 110);
 
         eliminar.add(eliminarpago);
         eliminarpago.setBounds(0, 0, 710, 510);
@@ -1096,11 +1045,9 @@ public class Cambios extends javax.swing.JFrame {
         txtelobjetos.setBounds(290, 220, 140, 30);
 
         buscarventas.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarventas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarventas.setText("Buscar");
         buscarventas.setContentAreaFilled(false);
         buscarventas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarventas.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarventas.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarventas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarventas.addActionListener(new java.awt.event.ActionListener() {
@@ -1109,14 +1056,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarventa.add(buscarventas);
-        buscarventas.setBounds(560, 100, 93, 100);
+        buscarventas.setBounds(560, 100, 75, 100);
 
         eliminarventas.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        eliminarventas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar).png"))); // NOI18N
         eliminarventas.setText("Borrar");
         eliminarventas.setContentAreaFilled(false);
         eliminarventas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        eliminarventas.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar) (Copiar).png"))); // NOI18N
         eliminarventas.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         eliminarventas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         eliminarventas.addActionListener(new java.awt.event.ActionListener() {
@@ -1127,9 +1072,7 @@ public class Cambios extends javax.swing.JFrame {
         eliminarventa.add(eliminarventas);
         eliminarventas.setBounds(560, 230, 100, 100);
 
-        btnsalir7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir7.setContentAreaFilled(false);
-        btnsalir7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir7ActionPerformed(evt);
@@ -1139,11 +1082,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir7.setBounds(0, 0, 70, 80);
 
         cancelar4.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar4.setText("cancelar");
         cancelar4.setContentAreaFilled(false);
         cancelar4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar4.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar4.addActionListener(new java.awt.event.ActionListener() {
@@ -1152,7 +1093,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarventa.add(cancelar4);
-        cancelar4.setBounds(570, 350, 93, 110);
+        cancelar4.setBounds(570, 350, 89, 110);
 
         eliminar.add(eliminarventa);
         eliminarventa.setBounds(0, 0, 710, 510);
@@ -1284,11 +1225,9 @@ public class Cambios extends javax.swing.JFrame {
         txtcasa2.setBounds(250, 400, 130, 30);
 
         buscarcliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarcliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarcliente.setText("Buscar");
         buscarcliente.setContentAreaFilled(false);
         buscarcliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarcliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarcliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarcliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarcliente.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1302,14 +1241,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarclientes.add(buscarcliente);
-        buscarcliente.setBounds(510, 140, 93, 100);
+        buscarcliente.setBounds(510, 140, 75, 100);
 
         eliminarcliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        eliminarcliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar).png"))); // NOI18N
         eliminarcliente.setText("Borrar");
         eliminarcliente.setContentAreaFilled(false);
         eliminarcliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        eliminarcliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/expediente (Copiar) (Copiar).png"))); // NOI18N
         eliminarcliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         eliminarcliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         eliminarcliente.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1325,9 +1262,7 @@ public class Cambios extends javax.swing.JFrame {
         eliminarclientes.add(eliminarcliente);
         eliminarcliente.setBounds(510, 260, 100, 100);
 
-        btnsalir6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir6.setContentAreaFilled(false);
-        btnsalir6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir6ActionPerformed(evt);
@@ -1337,11 +1272,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir6.setBounds(0, 0, 70, 80);
 
         cancelar3.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar3.setText("Cancelar");
         cancelar3.setContentAreaFilled(false);
         cancelar3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar3.addActionListener(new java.awt.event.ActionListener() {
@@ -1350,14 +1283,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminarclientes.add(cancelar3);
-        cancelar3.setBounds(520, 370, 93, 110);
+        cancelar3.setBounds(520, 370, 91, 110);
 
         eliminar.add(eliminarclientes);
         eliminarclientes.setBounds(0, 0, 710, 510);
 
-        btnsalir5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir5.setContentAreaFilled(false);
-        btnsalir5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir5ActionPerformed(evt);
@@ -1372,11 +1303,9 @@ public class Cambios extends javax.swing.JFrame {
         jLabel12.setBounds(230, 10, 250, 30);
 
         btncliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btncliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar).png"))); // NOI18N
         btncliente.setText("Cliente");
         btncliente.setContentAreaFilled(false);
         btncliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btncliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"))); // NOI18N
         btncliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btncliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btncliente.addActionListener(new java.awt.event.ActionListener() {
@@ -1388,12 +1317,10 @@ public class Cambios extends javax.swing.JFrame {
         btncliente.setBounds(180, 180, 80, 100);
 
         btnventa.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnventa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar).png"))); // NOI18N
         btnventa.setText("Venta");
         btnventa.setContentAreaFilled(false);
         btnventa.setDefaultCapable(false);
         btnventa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnventa.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"))); // NOI18N
         btnventa.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnventa.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnventa.addActionListener(new java.awt.event.ActionListener() {
@@ -1405,11 +1332,9 @@ public class Cambios extends javax.swing.JFrame {
         btnventa.setBounds(360, 180, 90, 100);
 
         btnpago.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnpago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar).png"))); // NOI18N
         btnpago.setText("Pago");
         btnpago.setContentAreaFilled(false);
         btnpago.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnpago.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar) (Copiar).png"))); // NOI18N
         btnpago.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnpago.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnpago.addActionListener(new java.awt.event.ActionListener() {
@@ -1418,7 +1343,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         eliminar.add(btnpago);
-        btnpago.setBounds(290, 340, 93, 100);
+        btnpago.setBounds(290, 340, 65, 100);
 
         registros.add(eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 510));
 
@@ -1563,11 +1488,9 @@ public class Cambios extends javax.swing.JFrame {
         casa3.setBounds(310, 380, 120, 30);
 
         buscliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscliente.setText("Buscar");
         buscliente.setContentAreaFilled(false);
         buscliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscliente.addActionListener(new java.awt.event.ActionListener() {
@@ -1576,14 +1499,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiosclientes.add(buscliente);
-        buscliente.setBounds(540, 90, 93, 100);
+        buscliente.setBounds(540, 90, 75, 100);
 
         cambiarcliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cambiarcliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar).png"))); // NOI18N
         cambiarcliente.setText("Cambiar");
         cambiarcliente.setContentAreaFilled(false);
         cambiarcliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cambiarcliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar) (Copiar).png"))); // NOI18N
         cambiarcliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cambiarcliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cambiarcliente.addActionListener(new java.awt.event.ActionListener() {
@@ -1594,9 +1515,7 @@ public class Cambios extends javax.swing.JFrame {
         cambiosclientes.add(cambiarcliente);
         cambiarcliente.setBounds(540, 210, 100, 100);
 
-        btnsalir10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir10.setContentAreaFilled(false);
-        btnsalir10.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir10ActionPerformed(evt);
@@ -1606,11 +1525,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir10.setBounds(0, 0, 70, 80);
 
         limpiar1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        limpiar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar).png"))); // NOI18N
         limpiar1.setText("Limpiar");
         limpiar1.setContentAreaFilled(false);
         limpiar1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        limpiar1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar) (Copiar).png"))); // NOI18N
         limpiar1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         limpiar1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         limpiar1.addActionListener(new java.awt.event.ActionListener() {
@@ -1619,7 +1536,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiosclientes.add(limpiar1);
-        limpiar1.setBounds(540, 325, 93, 100);
+        limpiar1.setBounds(540, 325, 83, 100);
 
         cambios.add(cambiosclientes);
         cambiosclientes.setBounds(0, 0, 710, 510);
@@ -1701,11 +1618,9 @@ public class Cambios extends javax.swing.JFrame {
         objetos3.setBounds(320, 210, 130, 30);
 
         buscarventa.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarventa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarventa.setText("Buscar");
         buscarventa.setContentAreaFilled(false);
         buscarventa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarventa.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarventa.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarventa.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarventa.addActionListener(new java.awt.event.ActionListener() {
@@ -1714,14 +1629,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiosventas.add(buscarventa);
-        buscarventa.setBounds(540, 60, 93, 100);
+        buscarventa.setBounds(540, 60, 75, 100);
 
         cambiarventa.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cambiarventa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar).png"))); // NOI18N
         cambiarventa.setText("Cambiar");
         cambiarventa.setContentAreaFilled(false);
         cambiarventa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cambiarventa.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar) (Copiar).png"))); // NOI18N
         cambiarventa.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cambiarventa.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cambiarventa.addActionListener(new java.awt.event.ActionListener() {
@@ -1732,9 +1645,7 @@ public class Cambios extends javax.swing.JFrame {
         cambiosventas.add(cambiarventa);
         cambiarventa.setBounds(540, 200, 100, 100);
 
-        btnsalir11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir11.setContentAreaFilled(false);
-        btnsalir11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir11ActionPerformed(evt);
@@ -1744,11 +1655,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir11.setBounds(0, 0, 70, 80);
 
         limpiar2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        limpiar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar).png"))); // NOI18N
         limpiar2.setText("Limpiar");
         limpiar2.setContentAreaFilled(false);
         limpiar2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        limpiar2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar) (Copiar).png"))); // NOI18N
         limpiar2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         limpiar2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         limpiar2.addActionListener(new java.awt.event.ActionListener() {
@@ -1757,7 +1666,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiosventas.add(limpiar2);
-        limpiar2.setBounds(540, 325, 93, 100);
+        limpiar2.setBounds(540, 325, 83, 100);
 
         cambios.add(cambiosventas);
         cambiosventas.setBounds(0, 0, 710, 510);
@@ -1855,11 +1764,9 @@ public class Cambios extends javax.swing.JFrame {
         fecha_lim3.setBounds(310, 260, 110, 30);
 
         buscarpago.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarpago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarpago.setText("Buscar");
         buscarpago.setContentAreaFilled(false);
         buscarpago.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarpago.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarpago.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarpago.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarpago.addActionListener(new java.awt.event.ActionListener() {
@@ -1868,14 +1775,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiospagos.add(buscarpago);
-        buscarpago.setBounds(540, 60, 93, 100);
+        buscarpago.setBounds(540, 60, 75, 100);
 
         cambiarpago.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cambiarpago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar).png"))); // NOI18N
         cambiarpago.setText("Cambiar");
         cambiarpago.setContentAreaFilled(false);
         cambiarpago.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cambiarpago.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/cambiar (Copiar) (Copiar).png"))); // NOI18N
         cambiarpago.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cambiarpago.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cambiarpago.addActionListener(new java.awt.event.ActionListener() {
@@ -1886,9 +1791,7 @@ public class Cambios extends javax.swing.JFrame {
         cambiospagos.add(cambiarpago);
         cambiarpago.setBounds(540, 200, 100, 100);
 
-        btnsalir12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir12.setContentAreaFilled(false);
-        btnsalir12.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir12ActionPerformed(evt);
@@ -1898,11 +1801,9 @@ public class Cambios extends javax.swing.JFrame {
         btnsalir12.setBounds(0, 0, 70, 80);
 
         limpiar3.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        limpiar3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar).png"))); // NOI18N
         limpiar3.setText("Limpiar");
         limpiar3.setContentAreaFilled(false);
         limpiar3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        limpiar3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/barrer (Copiar) (Copiar).png"))); // NOI18N
         limpiar3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         limpiar3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         limpiar3.addActionListener(new java.awt.event.ActionListener() {
@@ -1911,7 +1812,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambiospagos.add(limpiar3);
-        limpiar3.setBounds(540, 325, 93, 100);
+        limpiar3.setBounds(540, 325, 83, 100);
 
         cambios.add(cambiospagos);
         cambiospagos.setBounds(0, 0, 710, 510);
@@ -1922,11 +1823,9 @@ public class Cambios extends javax.swing.JFrame {
         titulo.setBounds(230, 10, 250, 40);
 
         btncliente2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btncliente2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar).png"))); // NOI18N
         btncliente2.setText("Cliente");
         btncliente2.setContentAreaFilled(false);
         btncliente2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btncliente2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"))); // NOI18N
         btncliente2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btncliente2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btncliente2.addActionListener(new java.awt.event.ActionListener() {
@@ -1938,12 +1837,10 @@ public class Cambios extends javax.swing.JFrame {
         btncliente2.setBounds(170, 180, 80, 100);
 
         btnventa2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnventa2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar).png"))); // NOI18N
         btnventa2.setText("Venta");
         btnventa2.setContentAreaFilled(false);
         btnventa2.setDefaultCapable(false);
         btnventa2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnventa2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"))); // NOI18N
         btnventa2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnventa2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnventa2.addActionListener(new java.awt.event.ActionListener() {
@@ -1955,11 +1852,9 @@ public class Cambios extends javax.swing.JFrame {
         btnventa2.setBounds(360, 180, 90, 100);
 
         btnpago2.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnpago2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar).png"))); // NOI18N
         btnpago2.setText("Pago");
         btnpago2.setContentAreaFilled(false);
         btnpago2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnpago2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar) (Copiar).png"))); // NOI18N
         btnpago2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnpago2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnpago2.addActionListener(new java.awt.event.ActionListener() {
@@ -1968,11 +1863,9 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         cambios.add(btnpago2);
-        btnpago2.setBounds(280, 330, 93, 100);
+        btnpago2.setBounds(280, 330, 65, 100);
 
-        btnsalir9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir9.setContentAreaFilled(false);
-        btnsalir9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir9ActionPerformed(evt);
@@ -1996,23 +1889,19 @@ public class Cambios extends javax.swing.JFrame {
         busquedaspagos.add(jLabel69);
         jLabel69.setBounds(270, 10, 210, 29);
 
-        btnsalir15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir15.setContentAreaFilled(false);
-        btnsalir15.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir15ActionPerformed(evt);
             }
         });
         busquedaspagos.add(btnsalir15);
-        btnsalir15.setBounds(0, 10, 93, 69);
+        btnsalir15.setBounds(0, 10, 33, 9);
 
         buscarpagosc.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarpagosc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarpagosc.setText("Buscar");
         buscarpagosc.setContentAreaFilled(false);
         buscarpagosc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarpagosc.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarpagosc.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarpagosc.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarpagosc.addActionListener(new java.awt.event.ActionListener() {
@@ -2021,7 +1910,7 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         busquedaspagos.add(buscarpagosc);
-        buscarpagosc.setBounds(570, 30, 93, 100);
+        buscarpagosc.setBounds(570, 30, 75, 100);
 
         tablad12.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -2058,16 +1947,14 @@ public class Cambios extends javax.swing.JFrame {
         busquedasventas.add(jLabel68);
         jLabel68.setBounds(250, 10, 200, 29);
 
-        btnsalir14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir14.setContentAreaFilled(false);
-        btnsalir14.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir14ActionPerformed(evt);
             }
         });
         busquedasventas.add(btnsalir14);
-        btnsalir14.setBounds(0, 10, 93, 69);
+        btnsalir14.setBounds(0, 10, 33, 9);
 
         jLabel82.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel82.setText("Escribe el numero de venta  :");
@@ -2093,11 +1980,9 @@ public class Cambios extends javax.swing.JFrame {
         jScrollPane2.setBounds(30, 220, 660, 190);
 
         buscarventas5.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarventas5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarventas5.setText("Buscar");
         buscarventas5.setContentAreaFilled(false);
         buscarventas5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarventas5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarventas5.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarventas5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarventas5.addActionListener(new java.awt.event.ActionListener() {
@@ -2106,14 +1991,12 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         busquedasventas.add(buscarventas5);
-        buscarventas5.setBounds(460, 20, 93, 100);
+        buscarventas5.setBounds(460, 20, 75, 100);
 
         listventas.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        listventas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         listventas.setText("Todas las ventas");
         listventas.setContentAreaFilled(false);
         listventas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        listventas.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         listventas.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         listventas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         listventas.addActionListener(new java.awt.event.ActionListener() {
@@ -2137,11 +2020,9 @@ public class Cambios extends javax.swing.JFrame {
         jLabel58.setBounds(250, 10, 170, 29);
 
         buscarcliente1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        buscarcliente1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         buscarcliente1.setText("Buscar");
         buscarcliente1.setContentAreaFilled(false);
         buscarcliente1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        buscarcliente1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         buscarcliente1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         buscarcliente1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         buscarcliente1.addActionListener(new java.awt.event.ActionListener() {
@@ -2150,18 +2031,16 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         busquedasclientes.add(buscarcliente1);
-        buscarcliente1.setBounds(460, 20, 93, 100);
+        buscarcliente1.setBounds(460, 20, 75, 100);
 
-        btnsalir13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir13.setContentAreaFilled(false);
-        btnsalir13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir13ActionPerformed(evt);
             }
         });
         busquedasclientes.add(btnsalir13);
-        btnsalir13.setBounds(20, 10, 93, 69);
+        btnsalir13.setBounds(20, 10, 33, 9);
 
         tablad.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -2191,11 +2070,9 @@ public class Cambios extends javax.swing.JFrame {
         txtdb.setBounds(240, 80, 190, 30);
 
         list.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        list.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar).png"))); // NOI18N
         list.setText("Lista de clientes");
         list.setContentAreaFilled(false);
         list.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        list.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"))); // NOI18N
         list.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         list.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         list.addActionListener(new java.awt.event.ActionListener() {
@@ -2215,11 +2092,9 @@ public class Cambios extends javax.swing.JFrame {
         jLabel57.setBounds(290, 10, 120, 40);
 
         btncliente1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btncliente1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar).png"))); // NOI18N
         btncliente1.setText("Cliente");
         btncliente1.setContentAreaFilled(false);
         btncliente1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btncliente1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"))); // NOI18N
         btncliente1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btncliente1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btncliente1.addActionListener(new java.awt.event.ActionListener() {
@@ -2231,12 +2106,10 @@ public class Cambios extends javax.swing.JFrame {
         btncliente1.setBounds(180, 180, 80, 100);
 
         btnventa1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnventa1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar).png"))); // NOI18N
         btnventa1.setText("Venta");
         btnventa1.setContentAreaFilled(false);
         btnventa1.setDefaultCapable(false);
         btnventa1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnventa1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"))); // NOI18N
         btnventa1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnventa1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnventa1.addActionListener(new java.awt.event.ActionListener() {
@@ -2248,11 +2121,9 @@ public class Cambios extends javax.swing.JFrame {
         btnventa1.setBounds(360, 180, 90, 100);
 
         btnpago1.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        btnpago1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar).png"))); // NOI18N
         btnpago1.setText("Pago");
         btnpago1.setContentAreaFilled(false);
         btnpago1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnpago1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/factura (1) (Copiar) (Copiar).png"))); // NOI18N
         btnpago1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         btnpago1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnpago1.addActionListener(new java.awt.event.ActionListener() {
@@ -2261,27 +2132,23 @@ public class Cambios extends javax.swing.JFrame {
             }
         });
         busquedas.add(btnpago1);
-        btnpago1.setBounds(290, 340, 93, 100);
+        btnpago1.setBounds(290, 340, 65, 100);
 
-        btnsalir4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir4.setContentAreaFilled(false);
-        btnsalir4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir4ActionPerformed(evt);
             }
         });
         busquedas.add(btnsalir4);
-        btnsalir4.setBounds(0, 0, 93, 69);
+        btnsalir4.setBounds(0, 0, 33, 9);
 
         registros.add(busquedas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 500));
 
         nuevo.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        nuevo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar).png"))); // NOI18N
         nuevo.setText("nuevo ");
         nuevo.setContentAreaFilled(false);
         nuevo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        nuevo.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/nuevo-documento (Copiar) (Copiar).png"))); // NOI18N
         nuevo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         nuevo.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         nuevo.addActionListener(new java.awt.event.ActionListener() {
@@ -2292,11 +2159,9 @@ public class Cambios extends javax.swing.JFrame {
         registros.add(nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 140, -1, 100));
 
         cancelar.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        cancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar).png"))); // NOI18N
         cancelar.setText("cancelar");
         cancelar.setContentAreaFilled(false);
         cancelar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        cancelar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/portapapeles (Copiar) (Copiar).png"))); // NOI18N
         cancelar.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         cancelar.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         cancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -2419,9 +2284,7 @@ public class Cambios extends javax.swing.JFrame {
         });
         registros.add(txttelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 400, 140, 30));
 
-        btnsalir2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar.png"))); // NOI18N
         btnsalir2.setContentAreaFilled(false);
-        btnsalir2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/regresar (Copiar).png"))); // NOI18N
         btnsalir2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsalir2ActionPerformed(evt);
@@ -2430,11 +2293,9 @@ public class Cambios extends javax.swing.JFrame {
         registros.add(btnsalir2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 60, 70));
 
         guardarcliente.setFont(new java.awt.Font("Trebuchet MS", 3, 14)); // NOI18N
-        guardarcliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar).png"))); // NOI18N
         guardarcliente.setText("Guardar_c");
         guardarcliente.setContentAreaFilled(false);
         guardarcliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        guardarcliente.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes2/boton-guardar (Copiar) (Copiar).png"))); // NOI18N
         guardarcliente.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         guardarcliente.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         guardarcliente.addActionListener(new java.awt.event.ActionListener() {
@@ -4299,7 +4160,6 @@ public class Cambios extends javax.swing.JFrame {
     private javax.swing.JPanel busquedasclientes;
     private javax.swing.JPanel busquedaspagos;
     private javax.swing.JPanel busquedasventas;
-    private com.toedter.calendar.JDateChooser calendario;
     private javax.swing.JTextField calle3;
     private javax.swing.JButton cambiarcliente;
     private javax.swing.JButton cambiarpago;

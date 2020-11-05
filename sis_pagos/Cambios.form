@@ -28,7 +28,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -64,15 +64,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/recibo (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Cambios"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/recibo (Copiar)_1.png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -90,15 +84,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/basura (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/basura (Copiar)_1.png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -116,15 +104,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/factura (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Registro"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/factura (Copiar)_1.png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -143,15 +125,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/metodo-de-pago (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Pagos"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/metodo-de-pago (Copiar)_1.png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -169,16 +145,10 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/flecha_regresar.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Salir"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/flecha_regresar (Copiar).png"/>
-            </Property>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
@@ -195,15 +165,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/candidato (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Consultas"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/candidato (Copiar) (Copiar).png"/>
-            </Property>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
@@ -241,7 +205,7 @@
         <Container class="javax.swing.JPanel" name="bienvenido">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -260,11 +224,6 @@
           </Layout>
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel4">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/logotipo (Copiar).png"/>
-                </Property>
-              </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="150" y="110" width="350" height="250"/>
@@ -312,15 +271,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Cliente"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -351,16 +304,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Venta"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -375,13 +322,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnsalir17">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir17ActionPerformed"/>
@@ -420,15 +361,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/boton-guardar (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Guardar_v"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/boton-guardar (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -474,16 +409,6 @@
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="120" y="200" width="50" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="com.toedter.calendar.JDateChooser" name="calendario">
-              <Properties>
-                <Property name="dateFormatString" type="java.lang.String" value="yyyy/MM/dd"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="310" y="200" width="140" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -535,13 +460,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnsalir16">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir16ActionPerformed"/>
@@ -570,15 +489,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="nuevo "/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -596,15 +509,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="cancelar"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -743,13 +650,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnsalir3">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir3ActionPerformed"/>
@@ -795,13 +696,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnguardar2">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/boton-guardar (Copiar).png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/boton-guardar (Copiar) (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnguardar2ActionPerformed"/>
@@ -841,15 +736,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="nuevo "/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -867,15 +756,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="cancelar"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -917,15 +800,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Buscar"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -1154,13 +1031,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir8">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir8ActionPerformed"/>
@@ -1176,15 +1047,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1202,15 +1067,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Borrar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1228,15 +1087,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="cancelar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1370,15 +1223,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1396,15 +1243,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Borrar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1419,13 +1260,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir7">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir7ActionPerformed"/>
@@ -1441,15 +1276,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="cancelar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1710,15 +1539,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1737,15 +1560,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Borrar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/expediente (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1761,13 +1578,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir6">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir6ActionPerformed"/>
@@ -1783,15 +1594,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Cancelar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -1808,13 +1613,7 @@
             </Container>
             <Component class="javax.swing.JButton" name="btnsalir5">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir5ActionPerformed"/>
@@ -1843,15 +1642,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Cliente"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -1869,16 +1662,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Venta"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -1896,15 +1683,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Pago"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -2188,15 +1969,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2214,15 +1989,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Cambiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2237,13 +2006,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir10">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir10ActionPerformed"/>
@@ -2259,15 +2022,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2416,15 +2173,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2442,15 +2193,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Cambiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2465,13 +2210,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir11">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir11ActionPerformed"/>
@@ -2487,15 +2226,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2688,15 +2421,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2714,15 +2441,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Cambiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/cambiar (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2737,13 +2458,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir12">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir12ActionPerformed"/>
@@ -2759,15 +2474,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/barrer (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -2800,15 +2509,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Cliente"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -2826,16 +2529,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Venta"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -2853,15 +2550,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Pago"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -2876,13 +2567,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnsalir9">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir9ActionPerformed"/>
@@ -2952,13 +2637,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir15">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir15ActionPerformed"/>
@@ -2974,15 +2653,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -3079,13 +2752,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir14">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir14ActionPerformed"/>
@@ -3147,15 +2814,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -3173,15 +2834,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Todas las ventas"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -3235,15 +2890,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -3258,13 +2907,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnsalir13">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar.png"/>
-                    </Property>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                    </Property>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir13ActionPerformed"/>
@@ -3336,15 +2979,9 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Trebuchet MS" size="14" style="3"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar).png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Lista de clientes"/>
                     <Property name="contentAreaFilled" type="boolean" value="false"/>
                     <Property name="horizontalTextPosition" type="int" value="0"/>
-                    <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/imagenes2/demandante-de-empleo (Copiar) (Copiar).png"/>
-                    </Property>
                     <Property name="verticalAlignment" type="int" value="1"/>
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
@@ -3377,15 +3014,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Cliente"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/ayudante-de-camara (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -3403,16 +3034,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Venta"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/tarjeta-de-credito (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -3430,15 +3055,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Trebuchet MS" size="14" style="3"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Pago"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/factura (1) (Copiar) (Copiar).png"/>
-                </Property>
                 <Property name="verticalAlignment" type="int" value="1"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
@@ -3453,13 +3072,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnsalir4">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar.png"/>
-                </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
-                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir4ActionPerformed"/>
@@ -3477,15 +3090,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="nuevo "/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/nuevo-documento (Copiar) (Copiar).png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -3503,15 +3110,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/portapapeles (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="cancelar"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/portapapeles (Copiar) (Copiar).png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
@@ -3748,13 +3349,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnsalir2">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/regresar.png"/>
-            </Property>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/regresar (Copiar).png"/>
-            </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsalir2ActionPerformed"/>
@@ -3770,15 +3365,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="14" style="3"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/boton-guardar (Copiar).png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Guardar_c"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes2/boton-guardar (Copiar) (Copiar).png"/>
-            </Property>
             <Property name="verticalAlignment" type="int" value="1"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
